@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en"><head><meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<meta name="robots" content="noindex,nofollow"><meta name="theme-color" content="#14284b">
+<title>Career Routine</title><link rel="manifest" href="manifest.webmanifest"><link rel="icon" href="icon-192.png"><link rel="apple-touch-icon" href="icon-192.png">
+<style>
+:root{--bg:#f3f5f9;--card:#fff;--ink:#121826;--mute:#667085;--line:#e4e8f0;--acc:#1f3f7a;--sh:0 6px 20px rgba(20,40,75,.08)}
+@media(prefers-color-scheme:dark){:root{--bg:#0c0f16;--card:#161b26;--ink:#eef1f7;--mute:#9aa3b5;--line:#252c3a;--acc:#9db8ee;--sh:none}}
+*{box-sizing:border-box;-webkit-tap-highlight-color:transparent}
+body{margin:0;background:var(--bg);color:var(--ink);font:16px/1.55 system-ui,-apple-system,Roboto,"Segoe UI",Arial,sans-serif}
+main{max-width:620px;margin:0 auto;padding:0 16px 120px;animation:f .35s ease}
+@keyframes f{from{opacity:0;transform:translateY(8px)}to{opacity:1;transform:none}}
+.hero{margin:0 -16px 18px;padding:calc(26px + env(safe-area-inset-top)) 22px 26px;color:#fff;background:linear-gradient(135deg,#0f1f3d,#1f3f7a 62%,#2f63b5);border-radius:0 0 28px 28px;display:flex;gap:16px;align-items:center;justify-content:space-between}
+.hero small{opacity:.75;font-size:.8rem;letter-spacing:.08em;text-transform:uppercase}
+.hero h1{margin:4px 0 8px;font-size:1.55rem;line-height:1.2;font-weight:700}
+.chip{display:inline-block;font-size:.75rem;font-weight:600;padding:4px 10px;border-radius:99px;background:rgba(255,255,255,.18);color:#fff;margin-right:6px}
+.ring{position:relative;width:78px;height:78px;flex:none}.ring svg{transform:rotate(-90deg)}
+.ring b{position:absolute;inset:0;display:flex;align-items:center;justify-content:center;font-size:1rem}
+h2{font-size:.78rem;font-weight:700;letter-spacing:.12em;text-transform:uppercase;color:var(--mute);margin:24px 4px 10px}
+.card{background:var(--card);border-radius:18px;padding:16px 18px;margin:12px 0;box-shadow:var(--sh);border:1px solid var(--line)}
+.card h3{margin:0 0 4px;font-size:1.05rem}.sub{color:var(--mute);font-size:.92rem;margin:0}
+.strip{display:flex;justify-content:space-between;gap:6px}
+.dy{flex:1;text-align:center;padding:10px 0;border-radius:14px;font-size:.75rem;color:var(--mute);background:var(--card);border:1px solid var(--line)}
+.dy i{display:block;width:9px;height:9px;border-radius:50%;margin:6px auto 0}
+.dy.on{background:var(--acc);color:#fff;border-color:var(--acc);font-weight:700}.dy.on i{outline:2px solid #fff}
+label.c{display:flex;gap:14px;align-items:flex-start;padding:13px 0;border-top:1px solid var(--line)}
+label.c:first-of-type{border-top:0}
+label.c input{appearance:none;-webkit-appearance:none;width:26px;height:26px;flex:none;border:2px solid var(--line);border-radius:8px;margin:0;display:grid;place-items:center;background:var(--bg)}
+label.c input:checked{background:var(--k,var(--acc));border-color:var(--k,var(--acc))}
+label.c input:checked::after{content:"";width:6px;height:12px;border:solid #fff;border-width:0 3px 3px 0;transform:rotate(45deg) translate(-1px,-1px)}
+label.c input:checked+span{color:var(--mute);text-decoration:line-through}
+.tl{position:relative;padding-left:22px;border-left:3px solid var(--line);margin:6px 0 6px 8px}
+.tl p{margin:0 0 14px;position:relative}.tl p:before{content:"";position:absolute;left:-30px;top:6px;width:11px;height:11px;border-radius:50%;background:var(--c,var(--acc));border:3px solid var(--bg)}
+.tl b{display:block}
+.big{font-size:2.4rem;font-weight:800;line-height:1;color:var(--acc)}
+.bar{height:8px;border-radius:99px;background:var(--line);overflow:hidden;margin:10px 0 4px}.bar>div{height:100%;background:var(--k);border-radius:99px}
+details{background:var(--card);border:1px solid var(--line);border-radius:18px;margin:12px 0;padding:0 18px;box-shadow:var(--sh)}
+summary{padding:16px 0;font-weight:700;min-height:52px;list-style:none;display:flex;justify-content:space-between}
+summary:after{content:"+";color:var(--mute);font-size:1.3rem;line-height:1}details[open] summary:after{content:"–"}
+details[open]{padding-bottom:12px}
+button{font:inherit;font-weight:600;font-size:.92rem;min-height:46px;padding:8px 18px;border-radius:12px;border:0;background:var(--acc);color:var(--bg)}
+button.g{background:transparent;border:1px solid var(--line);color:var(--ink)}
+pre{white-space:pre-wrap;word-wrap:break-word;background:var(--bg);border:1px solid var(--line);border-radius:12px;padding:12px;font:inherit;font-size:.88rem;margin:8px 0}
+input[type=text],input[type=password],input[type=email],textarea{width:100%;margin:6px 0;font:inherit;padding:14px;border:1px solid var(--line);border-radius:12px;background:var(--bg);color:var(--ink)}
+.row{display:flex;gap:10px;margin:10px 0}.row>*{flex:1}
+ul{padding-left:20px;margin:6px 0}li{margin:6px 0}
+.log div{display:flex;justify-content:space-between;align-items:center;gap:10px;padding:10px 0;border-top:1px solid var(--line)}.log small{color:var(--mute)}
+.tabs{position:fixed;left:12px;right:12px;bottom:calc(10px + env(safe-area-inset-bottom));display:flex;background:var(--card);border:1px solid var(--line);border-radius:24px;box-shadow:0 10px 30px rgba(0,0,0,.15);padding:6px}
+.tabs button{flex:1;background:transparent;color:var(--mute);min-height:56px;border-radius:18px;font-size:.7rem;display:flex;flex-direction:column;align-items:center;justify-content:center;gap:3px;padding:4px 0}
+.tabs button.on{background:var(--acc);color:var(--bg)}.tabs svg{width:22px;height:22px;stroke:currentColor;fill:none;stroke-width:2;stroke-linecap:round;stroke-linejoin:round}
+.top{padding-top:calc(24px + env(safe-area-inset-top))}
+.st{border-radius:14px;padding:12px 14px;margin:10px 0;border:1px solid var(--line);background:var(--card)}.st.cur{border:2px solid var(--k);box-shadow:var(--sh)}.st.lock{opacity:.5}.st label{display:flex;gap:12px;align-items:flex-start}.st input{appearance:none;-webkit-appearance:none;width:26px;height:26px;flex:none;border:2px solid var(--line);border-radius:8px;margin:0;display:grid;place-items:center;background:var(--bg)}.st input:checked{background:var(--k);border-color:var(--k)}.st input:checked::after{content:"";width:6px;height:12px;border:solid #fff;border-width:0 3px 3px 0;transform:rotate(45deg) translate(-1px,-1px)}.st small{display:block;font-size:.66rem;letter-spacing:.1em;color:var(--mute);font-weight:700}.st.cur small{color:var(--k)}.st.done span{color:var(--mute);text-decoration:line-through}.st ol{margin:10px 0 2px 24px;padding:0}.st ol li{margin:7px 0;font-size:.95rem}
+</style></head><body><main id="app"></main>
+<nav class="tabs" id="nav"></nav>
+<script>
+const TS=()=>{try{return JSON.parse(localStorage.getItem('_ts')||'{}')}catch(e){return{}}};
+const SYNC=k=>/^(d\d|u\d|sch|li\d|nk\d|log$|mp)/.test(k);
+const S={get(k){try{return localStorage.getItem(k)}catch(e){return null}},set(k,v){try{if(localStorage.getItem(k)===v)return;localStorage.setItem(k,v);const t=TS();t[k]=Date.now();localStorage.setItem('_ts',JSON.stringify(t));window.onLocalChange&&window.onLocalChange(k)}catch(e){}}};
+try{const t=TS();let c=0;for(let i=0;i<localStorage.length;i++){const k=localStorage.key(i);if(SYNC(k)&&!t[k]){t[k]=Date.now();c=1}}if(c)localStorage.setItem('_ts',JSON.stringify(t))}catch(e){}
+window.applyRemote=(k,v,t)=>{try{localStorage.setItem(k,v);const x=TS();x[k]=t;localStorage.setItem('_ts',JSON.stringify(x))}catch(e){}};
+window.rerender=()=>go(cur,true);
+const COPY={
+lihead:"MBA Candidate | Best Paper Award Winner | Business Operations & Project Coordination | Chemistry + Management | AI-Assisted Business Tools",
+nkhead:"MBA candidate (University of Calicut, 2027) | Best Paper Award winner | Business operations, project coordination and research | Full professional English and Arabic | Excel and AI-assisted business tools",
+nksum:"MBA candidate with a multidisciplinary background in Business Administration, English Literature and Chemistry. Winner of the Best Paper Award at a 2026 national seminar for research on the resilience of India's chemical-industry supply chains. Experience in project coordination, financial records and budgeting, mentoring and community leadership, plus hands-on experience designing business tools (stock and ledger systems) through AI-assisted development. Full professional English and Arabic. Open to opportunities in business operations, management and project coordination, including international roles.",
+conn:"Hello [Name], I am an MBA candidate with a focus on supply chain and business operations. I would value connecting with professionals in your field.",
+upd:"Monthly update for my portfolio website and résumé. Attached: index.html and my résumé (Word).\n\nAdd ONLY the items below. Do not change anything else.\n\n[PASTE YOUR NOTES LOG HERE]\n\nRules: keep the design, layout, fonts and existing wording unchanged. Place each item in the correct section (Experience, Education, Research & Projects, Awards & Recognition, Certifications, Skills, Languages). Keep every dated section in reverse-chronological order. Do not repeat an item across sections: awards get a short line, the work behind them goes under Research & Projects. Use my exact facts and ask me if a date or detail is missing. Keep the résumé at 2 pages. Keep file names: index.html, Mohammad_Jasel_Resume.docx, Mohammad_Jasel_Resume.pdf. Return the complete updated files and a list of exactly what you changed."};
+function cp(k){const t=COPY[k]||k;const done=()=>alert('Copied');const fb=x=>{const a=document.createElement('textarea');a.value=x;document.body.appendChild(a);a.select();try{document.execCommand('copy');done()}catch(e){}a.remove()};if(navigator.clipboard)navigator.clipboard.writeText(t).then(done,()=>fb(t));else fb(t)}
+const CAT={rest:["Rest","#8a8f9c"],log:["Plan","#5b6475"],li:["LinkedIn","#0a66c2"],nk:["Naukri","#0f9b8e"],wr:["Write","#7c4dff"]};
+const POSTS={'2026-10-10':'Best Paper Award post','2026-10-20':'Presentation video post'};
+const SCH={'2026-10-10':1,'2026-10-20':1};
+const ROT=['Win or update','Lesson or insight','Project post','Reflection or question'];
+const K=d=>d.getFullYear()+'-'+String(d.getMonth()+1).padStart(2,'0')+'-'+String(d.getDate()).padStart(2,'0');
+const fmt=d=>d.toLocaleDateString('en-IN',{weekday:'short',day:'numeric',month:'short'});
+const addD=(d,n)=>{const x=new Date(d);x.setDate(x.getDate()+n);return x};
+const nextTue=f=>{let d=addD(f,1);while(d.getDay()!==2)d=addD(d,1);return d};
+const IDEAS=["One lesson from my MBA this week","A business or supply-chain news item and my 3-point take","A tool or habit that saves me time (for example an Excel tip)","What I am learning in languages (Arabic, Spanish, Hindi)","A book or article and my one takeaway","A mistake I made and what I learned","A simple explainer of a chemistry or supply-chain idea","A question to my network about careers or an industry","Behind the scenes of something I am building","A thank-you to a teacher, mentor or organisation","My goals for the next month","A recap of what I did this month"];
+const topic=d=>POSTS[K(d)]||('Post idea: '+IDEAS[Math.floor(d.getTime()/6048e5)%IDEAS.length]);
+const ENG=[["Comment on 2 posts",["Home feed: pick posts from people in supply chain, MBA, chemistry or HR.","Write 2 to 3 sentences that add a point."]],["Congratulate 3 connections",["Bell icon → Birthdays, work anniversaries, new jobs.","Send a personal one-line message to 3 people."]],["Follow 3 relevant pages",["Search: supply chain, chemical industry, business schools, companies you like.","Open the Companies tab → Follow 3."]],["Share one useful article",["Find a short article in your field.","Repost with 2 lines of your own view."]],["Read one industry news item",["Pick a supply-chain or chemical-industry story.","Write one insight in Notes (a future post idea)."]],["Clear your messages",["Messaging icon: reply to every open message.","Thank anyone who congratulated you."]],["Send 2 connection requests",["My Network → People you may know → choose relevant professionals.","Connect → Add a note (copy it from the LinkedIn tab)."]],["Write 1 short recommendation",["Choose a teacher, mentor or colleague who helped you.","Their profile → More → Recommend → write 3 to 4 lines."]],["See who viewed your profile",["Your photo → View profile → Analytics.","Connect with relevant viewers; ignore the rest."]],["Subscribe to one newsletter",["Search 'newsletter' plus supply chain or business.","Subscribe to one, read it, comment with one thought."]],["Improve one line of your profile",["Open your profile → pencil on one section.","Tighten one sentence or add one skill. Save."]],["Follow 3 recruiters or HR leaders",["Search: recruiter, talent acquisition + your target cities.","Follow 3 and react to one of their posts."]],["Save 3 posts you admire",["Home feed: three-dots on a good post → Save.","Notice how each opens and ends."]],["Message one professional (no job request)",["Pick an alumnus or someone in your field.","Send 2 lines: who you are and one specific question."]]];
+const doy=d=>Math.floor((d-new Date(d.getFullYear(),0,0))/864e5);
+const HAB=d=>{const e=ENG[doy(d)%ENG.length];return["LinkedIn 5-minute habit: "+e[0],e[1]]};
+const OPEN=["LinkedIn app → tap your photo → Posts → Scheduled."];
+const LIVE=t=>[["Check the post is live",["Wait until 9:00 AM.","LinkedIn → your photo → Posts. The "+t+" should be at the top.","If it is not there, open Scheduled and tap Post now."]],["Reply to every comment",["Open the post.","Reply to each comment by name.","Like each comment."]],["Evening: reply again",["Open Notifications (bell icon).","Reply to new comments and messages."]],["Log it in Notes",["Notes tab → type: Posted "+t+" (today's date) → Add note."]]];
+const UPD=[["Review your Notes",["Notes tab: read every entry from this month.","If nothing new happened this month, skip steps 2 to 4 and do steps 5 and 6."]],["Send me the update",["Notes tab → Monthly update message → Copy message.","Open a new chat with me and paste it. Replace the placeholder with your Notes (Copy all).","Attach index.html (GitHub → click file → Raw → save) and your Word résumé."]],["Upload the new files to GitHub",["Save the index.html and PDF I give you.","GitHub repository → Add file → Upload files.","Check the names: index.html and Mohammad_Jasel_Resume.pdf. Tap Commit changes."]],["Check the website",["Wait 2 minutes, then open the site on your phone.","Confirm the new items appear in date order.","Tap Download Résumé and check the PDF."]],["Update LinkedIn",["Add new awards, projects, certificates or jobs to your profile.","Check Featured and the headline."]],["Update Naukri",["Upload the new PDF résumé.","Add new skills and update the summary. Save."]],["Close the month",["Delete finished entries in Notes.","Look at the Plan tab for next month's posts."]]];
+const B10=[["Before 9:00 AM: check the post",OPEN.concat(["Open the Best Paper Award post.","Make sure the text is the final version (starting 'Best Paper Award | Bridging...').","Add the certificate photo as the first image.","Delete 'SAFA Arts & Science College' and 'Kerala State Higher Education Council', retype with @ and pick them to tag."])],["Confirm the schedule",["Tap the clock icon.","It must say Sat 10 Oct, 9:00 AM. Tap Done, then Schedule."]],["After 9:00 AM: confirm it is live",["Your photo → Posts: the post is at the top."]],["Reply to every comment",["Open the post, reply by name, like each comment."]],["Pin it to Featured",["Your profile → Featured → + → Posts → choose it."]],["Add Honors & awards",["Profile → Add profile section → Recommended → Add honors & awards.","Title: Best Paper Award. Issuer: SAFA Arts & Science College. Date: Sep 2026."]],["Evening: reply again and log it",["Reply to new comments.","Notes tab: Posted Best Paper Award post, 10 Oct."]]];
+const P7=[["Update the scheduled Best Paper post",OPEN.concat(["Open the Best Paper Award post.","Replace the text with the new version from our chat (Best Paper Award | Bridging...).","Add the certificate photo first. Re-tag the college and council with @.","Confirm: Sat 10 Oct, 9:00 AM."])]];
+const EX={'2026-10-07':P7,'2026-10-09':[["Final check of Saturday's post",OPEN.concat(["Open the Best Paper Award post.","Text final? Certificate photo first? Tags correct? Time Sat 10 Oct 9:00 AM?"])]],'2026-10-19':[["Final check of tomorrow's video post",OPEN.concat(["Open the video post. Play the video once.","Caption is the final version. Subtitles are on.","Time is Tue 20 Oct 9:00 AM."])]]};
+const DEF={
+0:["Light day","rest",0,[["Pick next week's post idea",["Read the idea for Saturday on the Plan tab.","Jot any thought about it in Notes."]]]],
+1:["Log and plan","log",5,[["Add last week's events to Notes",["Notes tab → type each event with its date → Add note."]],["Check tomorrow's post",["Plan tab → Upcoming posts.","LinkedIn → your photo → Posts → Scheduled: is Tuesday's post there?","If not, write it today and schedule it for Tuesday 9:00 AM."]]]],
+3:["Naukri day 1","nk",15,[["Open Naukri",["Naukri app → Profile."]],["Refresh your profile",["Tap the pencil next to Resume headline.","Add or remove one word. Save."]],["Check recommended jobs",["Home → Recommended jobs. Open 5.","Pick 3 that match business operations or project coordination."]],["Apply to 3 jobs",["Tap Apply on each. Answer any questions asked.","Skip roles needing experience you do not have."]],["Log the companies",["Notes tab → type the 3 company names → Add note."]]]],
+4:["LinkedIn engage","li",15,[["Open your LinkedIn Home feed",["LinkedIn app → Home."]],["Comment on 3 posts",["Choose posts in supply chain, MBA, chemistry, HR or academia.","Write 2 to 3 sentences that add a point. Avoid 'great post'."]],["Send 5 connection requests",["My Network → find recruiters, alumni, HR.","Connect → Add a note → paste the connection note (LinkedIn tab → Copy)."]],["Reply to messages",["Messaging icon: answer every message."]]]],
+5:["Naukri day 2","nk",15,[["Open Naukri → Home",[]],["Apply to 3 more jobs",["Recommended jobs → pick 3 that fit → Apply."]],["Check recruiter activity",["Profile views and messages: reply politely today."]],["Log the companies",["Notes tab → company names → Add note."]]]]};
+function plan0(d){const k=K(d),w=d.getDay(),dom=d.getDate(),uk='u'+d.getFullYear()+'-'+d.getMonth()+':';
+if(dom===1||(dom<=3&&!POSTS[k]&&S.get(uk+(UPD.length-1))!=='1'))return{t:"Update Day",c:"log",m:60,p:uk,s:UPD};
+if(k==='2026-10-10')return{t:"Best Paper post day",c:"li",m:25,p:'d'+k+':',s:B10};
+let t,c,m,s;
+if(w===2){const ti=POSTS[k]||(S.get('sch'+k)==='1'?'post':null);if(ti){t="LinkedIn post day";c="li";m=20;s=LIVE(ti)}else{t="LinkedIn light day";c="li";m=10;s=[["Check notifications",["Bell icon: reply to anything new."]],["Comment on 2 posts",["Home feed: add a real point in 2 to 3 sentences."]]]}}
+else if(w===6){let n=nextTue(d),pre=[];if(SCH[K(n)]){pre=[["Check the scheduled post for "+fmt(n),OPEN.concat(["Open it: text, media and time (9:00 AM) correct?"])]];n=addD(n,7)}
+t="Write next post";c="wr";m=20;s=pre.concat([["Choose the topic",[topic(n)+" for "+fmt(n)+".","No news this week? This idea works in any week."]],["Write the draft",["Hook line, 2 to 3 short paragraphs, one lesson, a question, 3 to 5 hashtags.","150 to 250 words. Never name clients."]],["Add a photo or video",["Choose a clear image or a short clip."]],["Schedule it",["Tap the clock icon → "+fmt(n)+", 9:00 AM → Schedule."]],["Log it in Notes",["Notes tab: Scheduled the post for "+fmt(n)+"."]]]);if(S.get('d'+k+':'+(pre.length+3))==='1')S.set('sch'+K(n),'1')}
+else{const D=DEF[w];t=D[0];c=D[1];m=D[2];s=D[3]}
+if(k==='2026-10-20'){t="Video post day";s=LIVE("video post")}
+return{t,c,m,p:'d'+k+':',s:(EX[k]||[]).concat(s)}}
+function plan(d){const P=plan0(d);return{...P,m:(P.m||0)+5,s:P.s.concat([HAB(d)])}}
+const chk=(k,t,c)=>`<label class="c" style="--k:${c||'var(--acc)'}"><input type="checkbox" data-k="${k}" ${S.get(k)==='1'?'checked':''}><span>${t}</span></label>`;
+const list=(p,a,c)=>a.map((t,i)=>chk(p+i,t,c)).join('');
+const pct=(p,n)=>{let d=0;for(let i=0;i<n;i++)if(S.get(p+i)==='1')d++;return Math.round(d/n*100)};
+const block=(k,l)=>`<pre>${COPY[k]}</pre><button onclick="cp('${k}')">Copy ${l}</button>`;
+function steps(p,a,c){const cur=a.findIndex((_,i)=>S.get(p+i)!=='1');return a.map((x,i)=>{const on=S.get(p+i)==='1',st=on?'done':i===cur?'cur':'lock';return`<div class="st ${st}" style="--k:${c}"><label><input type="checkbox" data-k="${p+i}" ${on?'checked':''} ${st==='lock'?'disabled':''}><span><small>STEP ${i+1}${st==='lock'?' · LOCKED':st==='cur'?' · DO THIS NOW':''}</small>${x[0]}</span></label>${st==='cur'&&x[1].length?`<ol>${x[1].map(y=>`<li>${y}</li>`).join('')}</ol>`:''}</div>`}).join('')}
+const IC={today:'<path d="M4 11l8-7 8 7v9a1 1 0 0 1-1 1h-5v-6H10v6H5a1 1 0 0 1-1-1z"/>',plan:'<rect x="3" y="5" width="18" height="16" rx="3"/><path d="M8 3v4M16 3v4M3 10h18"/>',li:'<path d="M5 9v10M5 5v.5M10 19v-6a3 3 0 0 1 6 0v6M10 10v9"/>',nk:'<rect x="3" y="7" width="18" height="13" rx="3"/><path d="M9 7V5a2 2 0 0 1 2-2h2a2 2 0 0 1 2 2v2M3 13h18"/>',notes:'<path d="M5 4h11l3 3v13H5zM8 12h8M8 16h5"/>'};
+const NAME={today:"Today",plan:"Plan",li:"LinkedIn",nk:"Naukri",notes:"Notes"};
+const LISET=["Clear profile photo, plain background.","Headline replaced with the one below.","About: first 3 lines say who you are and mention the Best Paper Award; end with what you seek and your email.","Experience in reverse-chronological order with dates.","Education: MBA, MA, BSc, Diploma.","Honors & awards: add Best Paper Award (Add profile section, Recommended).","Projects: add SS Store and JAc Ledger.","Featured: portfolio link, Best Paper post, JAc post.","Skills: 15 or more; pin Business Operations, Project Coordination, Supply Chain Management; add Typing.","Languages section filled in.","Contact info: website set to your portfolio link.","Open to Work (recruiters only): Business Operations, Project Coordination, Management Trainee roles; locations you accept."];
+const NKSET=["Verify email and phone number.","Upload the latest PDF résumé.","Resume headline: copy the one below.","Profile summary: copy the one below (shorten if the form limits it).","Key skills (12 to 15): Business Operations, Project Coordination, MS Excel, Financial Reporting, Budgeting, Research, Supply Chain, Event Management, Communication, Data Analysis, Arabic, English.","Employment and education in reverse-chronological order.","Career profile: desired role, industry, locations (Kerala, Gulf, remote), job type.","Languages: English, Arabic, Malayalam, Hindi, Urdu.","Profile completeness above 90%."];
+function nextFirst(){const n=new Date(),t=new Date(n.getFullYear(),n.getMonth(),n.getDate());const f=n.getDate()===1?t:new Date(n.getFullYear(),n.getMonth()+1,1);return[f,Math.round((f-t)/864e5)]}
+let cur='today';
+const V={
+today(){const n=new Date(),P=plan(n),c=CAT[P.c][1],[f,left]=nextFirst(),h=n.getHours(),g=h<12?'Good morning':h<17?'Good afternoon':'Good evening',tot=P.s.length,done=P.s.filter((_,i)=>S.get(P.p+i)==='1').length,p=Math.round(done/tot*100),C=2*Math.PI*32,tm=plan(addD(n,1));
+const up=Object.keys(SCH).filter(k=>k>=K(n)).map(k=>`<p style="margin:6px 0"><b>${fmt(new Date(k+'T00:00:00'))}, 9:00 AM</b><br><span class="sub">${POSTS[k]}</span></p>`).join('')||'<p class="sub">Nothing scheduled.</p>';
+return`<div class="hero"><div><small>${g}, Jasel · ${fmt(n)}</small><h1>${P.t}</h1><span class="chip">${CAT[P.c][0]}</span>${P.m?`<span class="chip">${P.m} min</span>`:''}<span class="chip">${tot} steps</span></div><div class="ring"><svg width="78" height="78"><circle cx="39" cy="39" r="32" fill="none" stroke="rgba(255,255,255,.2)" stroke-width="7"/><circle cx="39" cy="39" r="32" fill="none" stroke="#fff" stroke-width="7" stroke-linecap="round" stroke-dasharray="${C}" stroke-dashoffset="${C*(1-p/100)}"/></svg><b>${p}%</b></div></div>
+<p class="sub" style="margin:0 4px 6px">Finish each step to unlock the next one.</p>${steps(P.p,P.s,c)}
+<h2>Tomorrow</h2><div class="card"><h3>${tm.t}</h3><p class="sub">${CAT[tm.c][0]}${tm.m?' · '+tm.m+' min':''}</p></div>
+<h2>Scheduled on LinkedIn</h2><div class="card">${up}</div>
+<h2>Next update day</h2><div class="card"><div class="big">${left||'Today'}${left?'<span style="font-size:1rem;font-weight:600;color:var(--mute)"> days</span>':''}</div><p class="sub">${f.toLocaleDateString('en-IN',{weekday:'long',day:'numeric',month:'long',year:'numeric'})}</p></div>`},
+plan(){const W=[["Monday","Log and plan · 5 min","log"],["Tuesday","LinkedIn post day · 20 min","li"],["Wednesday","Naukri day 1 · 15 min","nk"],["Thursday","LinkedIn engage · 15 min","li"],["Friday","Naukri day 2 · 15 min","nk"],["Saturday","Write next post · 20 min","wr"],["Sunday","Light day · 5 min","rest"]],t=K(new Date());
+return`<div class="top"></div><h1 style="margin:0 4px">Plan</h1><p class="sub" style="margin:4px 4px 0">Never more than 20 minutes a day. LinkedIn and Naukri are on separate days.</p>
+<h2>Weekly rhythm</h2><div class="card"><div class="tl">${W.map(d=>`<p style="--c:${CAT[d[2]][1]}"><b>${d[0]}</b><span class="sub">${d[1]}</span></p>`).join('')}</div><p class="sub">Every day ends with a 5-minute LinkedIn habit that changes daily, so you always have something to do, even with no news.</p></div>
+<h2>Scheduled posts</h2><div class="card"><div class="tl">${Object.keys(POSTS).concat(Object.keys(localStorage).filter(k=>k.slice(0,3)==='sch').map(k=>k.slice(3))).filter(k=>k>=t).sort().map(k=>{const d=new Date(k+'T00:00:00');return`<p><b>${fmt(d)}, 9:00 AM</b><span class="sub">${POSTS[k]||'Scheduled post'}</span></p>`}).join('')}<p><b>After that</b><span class="sub">Each Saturday you write and schedule the next Tuesday post. Nothing else is planned.</span></p></div></div>`},
+li(){const p=pct('li',LISET.length);return`<div class="hero" style="display:block"><small>LinkedIn</small><h1>One post a week</h1><div class="bar"><div style="width:${p}%;background:#fff;--k:#fff"></div></div><span class="chip">Profile setup ${p}%</span></div>
+<details open><summary>Profile setup checklist</summary>${list('li',LISET,'#0a66c2')}${block('lihead','headline')}</details>
+<details><summary>Post formula · 150 to 250 words</summary><ul><li>Line 1: the hook (what happened or what you learned).</li><li>Two or three short paragraphs: context, what you did, result.</li><li>One honest lesson.</li><li>Thank or tag people and organisations (type @ and pick them).</li><li>End with a question.</li><li>3 to 5 hashtags. Add a photo or video.</li><li>Never name clients; mask real data; claim only what is true.</li></ul></details>
+<details><summary>4-week topic rotation</summary><ul><li><b>Week 1:</b> Win or update (award, seminar, certificate).</li><li><b>Week 2:</b> Lesson or insight (supply chain, MBA, building with AI).</li><li><b>Week 3:</b> Project (JAc, SS Store, research).</li><li><b>Week 4:</b> Reflection or question to your network.</li></ul></details>
+<details><summary>Posting and engagement rules</summary><ul><li>Post on Tuesday at 9:00 AM. Never more than 2 posts in a week.</li><li>Reply to comments in the first hour.</li><li>Comments should add a point, not just "great post".</li><li>5 connection requests a week, always with a note.</li></ul>${block('conn','connection note')}</details>`},
+nk(){const p=pct('nk',NKSET.length);return`<div class="hero" style="display:block;background:linear-gradient(135deg,#0b3f3a,#0f9b8e)"><small>Naukri</small><h1>Wednesday and Friday</h1><div class="bar"><div style="width:${p}%;background:#fff"></div></div><span class="chip">Profile setup ${p}%</span></div>
+<p class="sub" style="margin:0 4px">Menus can change, so look for the closest matching option.</p>
+<details open><summary>Profile setup checklist</summary>${list('nk',NKSET,'#0f9b8e')}${block('nkhead','resume headline')}${block('nksum','profile summary')}</details>
+<details><summary>Weekly routine</summary><ul><li><b>Wednesday:</b> edit the resume headline slightly and save, check recommended jobs, apply to 3.</li><li><b>Friday:</b> apply to 3 more, reply to recruiters, log companies in Notes.</li><li>Recently updated profiles are generally shown to recruiters sooner.</li><li>Apply only to roles that fit; quality beats quantity.</li></ul></details>
+<details><summary>Monthly</summary><ul><li>Re-upload the latest PDF résumé on Update Day.</li><li>Refresh key skills and summary with new achievements.</li></ul></details>`},
+notes(){const L=JSON.parse(S.get('log')||'[]');return`<div class="top"></div><h1 style="margin:0 4px">Notes</h1><p class="sub" style="margin:4px 4px 0">Write each event as it happens. Saved on this phone only.</p>
+<div class="card"><input type="text" id="ni" placeholder="e.g. Certificate: Excel course, 12 Nov"><div class="row"><button onclick="addN()">Add note</button><button class="g" onclick="cp(logTxt())">Copy all</button></div><div class="log">${L.map((x,i)=>`<div><span>${x.t}<br><small>${x.d}</small></span><button class="g" onclick="delN(${i})">Delete</button></div>`).join('')||'<p class="sub">No notes yet.</p>'}</div></div>
+<details><summary>Monthly update message</summary>${block('upd','message')}</details>
+<details><summary>Cloud sync (Firebase)</summary><p class="sub" id="cs">${window.CSTXT||'Cloud sync is off. Paste your Firebase config below.'}</p><textarea id="cfg" rows="5" placeholder="Paste the firebaseConfig from the Firebase console"></textarea><button onclick="saveCfg()">Save config</button><input type="email" id="em" placeholder="Email" autocomplete="username"><input type="password" id="pw" placeholder="Password (6+ characters)" autocomplete="current-password"><div class="row"><button onclick="cloudDo('signIn')">Sign in</button><button class="g" onclick="cloudDo('signUp')">Create account</button></div><button class="g" onclick="cloudDo('out')">Sign out</button></details>
+<details><summary>Install on your S23</summary><ul><li>Open the app address in Chrome.</li><li>Menu (three dots) → Add to Home screen → Install.</li><li>Open it from the new icon. It runs full screen and works offline.</li><li>Sign in under Cloud sync so your ticks and notes sync to Firebase and survive a phone change.</li></ul></details>`}};
+function saveCfg(){const t=document.getElementById('cfg').value,o={},re=/(\w+)\s*:\s*["']([^"']+)["']/g;let m;while(m=re.exec(t))o[m[1]]=m[2];if(!o.apiKey||!o.projectId||!o.appId){alert('Config not recognised. Paste the whole firebaseConfig block.');return}localStorage.setItem('fbcfg',JSON.stringify(o));location.reload()}
+function cloudDo(a){if(!window.cloud){alert('Save the Firebase config first, or wait until you are online.');return}window.cloud[a](document.getElementById('em').value.trim(),document.getElementById('pw').value)}
+function logTxt(){return JSON.parse(S.get('log')||'[]').map(x=>'- '+x.d+': '+x.t).join('\n')}
+function addN(){const v=document.getElementById('ni').value.trim();if(!v)return;const L=JSON.parse(S.get('log')||'[]');L.push({t:v,d:new Date().toLocaleDateString('en-IN',{day:'numeric',month:'short',year:'numeric'})});S.set('log',JSON.stringify(L));go('notes')}
+function delN(i){const L=JSON.parse(S.get('log')||'[]');L.splice(i,1);S.set('log',JSON.stringify(L));go('notes')}
+function go(t,keep){cur=t;const y=window.scrollY;document.getElementById('app').innerHTML=V[t]();document.querySelectorAll('.tabs button').forEach(b=>b.classList.toggle('on',b.dataset.t===t));window.scrollTo(0,keep?y:0)}
+document.getElementById('nav').innerHTML=Object.keys(NAME).map(k=>`<button data-t="${k}"><svg viewBox="0 0 24 24">${IC[k]}</svg>${NAME[k]}</button>`).join('');
+document.querySelectorAll('.tabs button').forEach(b=>b.onclick=()=>go(b.dataset.t));
+document.addEventListener('change',e=>{const k=e.target.dataset&&e.target.dataset.k;if(k){S.set(k,e.target.checked?'1':'0');if(cur!=='plan')go(cur,true)}});
+go('today');
+if('serviceWorker' in navigator&&location.protocol==='https:')navigator.serviceWorker.register('sw.js').catch(()=>{});
+</script><script type="module">
+const U='https://www.gstatic.com/firebasejs/10.12.2/';
+const setSt=t=>{window.CSTXT=t;const e=document.getElementById('cs');if(e)e.textContent=t};
+const cfg=JSON.parse(localStorage.getItem('fbcfg')||'null');
+if(!cfg){setSt('Cloud sync is off. Paste your Firebase config below.')}else{try{
+const [A,Au,F]=await Promise.all([import(U+'firebase-app.js'),import(U+'firebase-auth.js'),import(U+'firebase-firestore.js')]);
+const app=A.initializeApp(cfg),auth=Au.getAuth(app),db=F.getFirestore(app);
+const err=e=>setSt(String(e.message||e).replace('Firebase: ',''));
+window.cloud={signIn:(e,p)=>Au.signInWithEmailAndPassword(auth,e,p).catch(err),signUp:(e,p)=>Au.createUserWithEmailAndPassword(auth,e,p).catch(err),out:()=>Au.signOut(auth)};
+let unsub=null,uid=null,ref=null,tm=null;const dirty=new Set();
+const flush=()=>{const up={},t=TS();dirty.forEach(k=>up['k_'+k]={v:localStorage.getItem(k),t:t[k]||Date.now()});dirty.clear();if(ref&&Object.keys(up).length)F.setDoc(ref,up,{merge:true}).catch(err)};
+window.onLocalChange=k=>{if(!uid||!SYNC(k))return;dirty.add(k);clearTimeout(tm);tm=setTimeout(flush,600)};
+Au.onAuthStateChanged(auth,u=>{if(unsub){unsub();unsub=null}uid=null;if(!u){setSt('Signed out. Sign in to sync.');return}
+uid=u.uid;ref=F.doc(db,'users',u.uid,'app','routine');setSt('Connecting as '+u.email+'...');
+unsub=F.onSnapshot(ref,snap=>{if(snap.metadata.hasPendingWrites)return;const d=snap.data()||{},t=TS();let ch=false;
+for(const f in d){if(f.slice(0,2)!=='k_')continue;const k=f.slice(2),r=d[f];if(SYNC(k)&&r&&r.t>(t[k]||0)){window.applyRemote(k,r.v,r.t);ch=true}}
+const up={},t2=TS();for(const k in t2){if(!SYNC(k))continue;const r=d['k_'+k];if(!r||t2[k]>r.t)up['k_'+k]={v:localStorage.getItem(k),t:t2[k]}}
+if(Object.keys(up).length)F.setDoc(ref,up,{merge:true}).catch(err);
+if(ch&&window.rerender)window.rerender();setSt('Synced as '+u.email+' · '+new Date().toLocaleTimeString())},err)});
+}catch(e){setSt('Cloud unavailable (offline?). Your data is saved on this phone and will sync later.')}}
+</script>
+</body></html>
